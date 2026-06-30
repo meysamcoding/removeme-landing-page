@@ -1,6 +1,3 @@
-# removeme-landing-page
-
-
 # RemoveMe Landing Page
 
 ## Tech Stack
