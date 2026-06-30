@@ -29,17 +29,27 @@ const Navbar = () => {
                 FAQ
               </a>
             </li>
+            <li>
+               <a
+              href="#"
+              className="hover:text-blue-600"
+            >
+              Login
+            </a>
+            </li>
           </ul>
 
           {/* Desktop Buttons */}
-          <div className="hidden items-center gap-4 lg:flex">
-            <button className="rounded-lg border px-5 py-2">
-              Login
-            </button>
+        <div className="flex items-center gap-4">
+           
 
-            <button className="rounded-lg bg-blue-600 px-5 py-2 text-white">
-              Start Free Scan
-            </button>
+                <button className="rounded-lg bg-green-600 px-5 py-2 text-sm font-semibold text-white transition hover:bg-green-700">
+    Start Free Scan
+  </button>
+
+  <button className="rounded-lg border border-green-600 px-5 py-2 text-sm font-semibold text-green-600 transition hover:bg-green-50">
+    Sign Up Now
+  </button>
           </div>
 
           {/* Mobile Menu Button */}
