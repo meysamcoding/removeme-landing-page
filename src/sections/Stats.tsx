@@ -3,7 +3,7 @@ import { stats } from "../data/stats";
 
 const Stats = () => {
   return (
-    <section className="bg-slate-50 py-20">
+    <section className=" py-20">
       <Container>
         <div className="text-center">
           <h2 className="text-4xl font-bold text-slate-900">
@@ -17,7 +17,7 @@ const Stats = () => {
               key={item.number}
               className="rounded-2xl border border-slate-200 bg-white p-10 text-center shadow-sm"
             >
-              <h3 className="text-5xl font-bold text-blue-600">
+              <h3 className="text-5xl font-bold text-dark-600">
                 {item.number}
               </h3>
 

@@ -8,7 +8,7 @@ export const stats = [
     text: "pieces of personal information exposed every year",
   },
   {
-    number: "2–3x",
+    number: "2–3 times",
     text: "times personal information is re-exposed annually",
   },
 ];
